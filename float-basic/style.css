@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid black; */
+}
+
+.red-box {
+    background: #ff0000;
+}
+
+.red-box::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.cleaner {
+    clear: both;
+}
+
+.box {
+    width: 206px;
+    height: 202px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+}
+
+.box-1 {
+    background: #008000;
+    float: left;
+    margin-left: 40px;
+    margin-right: 36px;
+}
+
+.box-2 {
+    background: #00f7ff;
+    float: left;
+}
+
+.box-3 {
+    background: #fffb00;
+    float: right;
+}
+
+.box-4 {
+    background: #0000ff;
+    float: right;
+    margin-right: 40px;
+    margin-left: 36px;
+}
