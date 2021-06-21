@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    /* position: relative; */
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fL {
+    float: left;
+}
+
+.fR {
+    float: right;
+}
+
+.lists-container {
+    width: 230px;
+    background-color: brown;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    /* padding: 30px 10px; */
+    margin: 10px;
+    /* border-radius: 2px;
+    text-align: center; */
+    /* width: 200px;
+    height: 100px; */
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.target-container {
+    background-color: black;
+    width: calc(100% - 270px);
+    height: 700px;
+    margin-right: 10px;
+    position: relative;
+    border: 2px dashed black;
+}
+
+.small {
+    position: absolute;
+}
