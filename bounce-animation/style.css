@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    width: 10px;
+    height: 115px;
+    background: linear-gradient(180deg, #5C5C5C 20.31%, #171717 92.71%);
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transition: all .5s cubic-bezier(.32,2,.55,.27);
+}
+
+.main>div {
+    padding: 0 2px;
+}
+
+.main:hover {
+    width: 30px;
+}
+
+.arrow {
+    width: 10px;
+}
+
+.text {
+    width: 20px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
